@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier ;
+}
+body {
+    min-height: 100vh;
+    background-image: linear-gradient( #d2945e, #e3bc9a);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 32px;
+    color: #ffff;
+    text-decoration: none;
+    front-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    top: 100;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+a:hover {
+    color: aqua;
+    background-color: transparent;
+}
+
+.container{
+    white-space: nowrap; 
+    width: 50px; 
+    overflow: hidden;
+    text-overflow: clip; 
+    border: 1px solid #000000;
+}
+
+.h1 {
+    left: 230px;
+    line-height: 180px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    justify-content: center;
+    
+}
+.h1 {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+}
+
+.h4 {
+    left: 470px;
+    line-height: 300px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.h4 {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+}
+
+img {
+    left: 100px;
+    line-height: 200px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    border: 20px solid #ffff;
+}
+
+.txt {
+    left: 630px;
+    line-height: 380px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.txt {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: clip; 
+}
+
+.txt2 {
+    left: 630px;
+    line-height: 460px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.txt2 {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.txt3 {
+    left: 630px;
+    line-height: 580px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.txt3 {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.txt4 {
+    left: 630px;
+    line-height: 660px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.txt4 {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.txt5 {
+    left: 630px;
+    line-height: 780px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.txt5 {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.txt6 {
+    left: 630px;
+    line-height: 860px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.txt6 {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.more {
+    left: 630px;
+    line-height: 1000px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.more {
+    font-size: 40px;
+    font-family: Courier;
+    color: white;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.txt7 {
+    left: 630px;
+    line-height: 1100px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.txt7 {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.txt8 {
+    left: 630px;
+    line-height: 1180px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.txt8 {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.txt9 {
+    left: 630px;
+    line-height: 1260px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.txt9 {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.txt10 {
+    left: 630px;
+    line-height: 1340px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.txt10 {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.txt11 {
+    left: 630px;
+    line-height: 1440px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.txt11 {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.txt12 {
+    left: 630px;
+    line-height: 1520px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.txt12 {
+    font-size: 25px;
+    font-family: Courier;
+    color: white;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: clip;
+}
